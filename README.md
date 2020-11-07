@@ -1,10 +1,19 @@
 # BuscaCep
 
-Um buscador simples de geocodes do Google Maps usando Java Spring Shell, RestTemplate e Gradle como Build Manager.
+Um buscador simples de geocodes do Google Maps usando Java Spring Shell, RestTemplate e Gradle como Build Manager. 
+
+# Requerimentos:
+
+- java8
+- jdk 1.8
 
 # Como rodar
 
-Basta criar o build e rodar o jar em seguida:
+1. Primeiro deve ser criada uma chave de API do google. Isto pode ser feito em https://developers.google.com/maps/documentation/embed/get-api-key
+
+2. Preencher a chave google.ApiKey no arquivo application.properties com a chave criada no passo 1.
+
+3. Por fim, basta criar o build e rodar o jar em seguida:
 
     ./gradlew build && java -jar build/libs/buscaCep-0.0.1-SNAPSHOT.jar
 
