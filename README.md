@@ -15,7 +15,7 @@ Um buscador simples de geocodes do Google Maps usando Java Spring Shell, RestTem
 
 3. Por fim, basta criar o build e rodar o jar em seguida:
 
-    ./gradlew build && java -jar build/libs/buscaCep-0.0.1-SNAPSHOT.jar
+	> ./gradlew build && java -jar build/libs/buscaCep-0.0.1-SNAPSHOT.jar
 
 
 # RoadMap
